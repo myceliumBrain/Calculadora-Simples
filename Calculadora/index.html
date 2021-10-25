@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="container">
+        <div id="divfirstValue"></div>
+        <div id="divResult"></div>
+        <div>
+            <input numberButton class="buttonStyle" type="button" value="7" onclick = "addValue('7')">
+            <input numberButton class="buttonStyle" type="button" value="8" onclick = "addValue('8')">
+            <input numberButton class="buttonStyle" type="button" value="9" onclick = "addValue('9')">
+            <input OperatorButton class="buttonStyle" type="button" value="÷" onclick = "addOperator('/')">
+        </div>
+        <div>
+            <input numberButton class="buttonStyle" type="button" value="4" onclick = "addValue('4')">
+            <input numberButton class="buttonStyle" type="button" value="5" onclick = "addValue('5')">
+            <input numberButton class="buttonStyle" type="button" value="6" onclick = "addValue('6')">
+            <input OperatorButton class="buttonStyle" type="button" value="x" onclick = "addOperator('*')">
+        </div>
+        <div>
+            <input numberButton class="buttonStyle" type="button" value="1" onclick = "addValue('1')">
+            <input numberButton class="buttonStyle" type="button" value="2" onclick = "addValue('2')">
+            <input numberButton class="buttonStyle" type="button" value="3" onclick = "addValue('3')">
+            <input OperatorButton class="buttonStyle" type="button" value="-" onclick = "addOperator('-')">
+        </div>
+        <div>
+            <input clearButton class="buttonStyle" type="button" value="C" onclick = "clearValue()">
+            <input numberButton class="buttonStyle" type="button" value="0" onclick = "addValue('0')">
+            <input equalButton class="buttonStyle" type="button" value="=" onclick = "equal()">
+            <input OperatorButton class="buttonStyle" type="button" value="+" onclick = "addOperator('+')">
+        </div>
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>

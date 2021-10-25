@@ -1,0 +1,73 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin:0px;    
+}
+
+body{
+    margin-top: 50px;
+    color:#272838;
+    font-weight: bold;
+}
+
+#container{
+    display: block;
+    background-color: #E8E9F3;
+    margin: auto;
+    width: 220px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#divfirstValue{
+    height: 20px;
+    width: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left:auto;
+    background-color: #dfe0e8;
+    color: #0000009e;
+    border-radius: 15px;
+    text-align: right;
+}
+
+#divResult{
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #E8E9F3;
+    height: 45px;
+    font-size: 35px;
+    text-align: right;
+}
+
+/*Button Style*/
+.buttonStyle{
+    height: 50px;
+    width: 50px;
+    margin:1px;
+    margin-top: 6px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F4FFF8;
+    border-style: none;
+    font-weight: bold;
+}
+
+.buttonStyle:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #75817367;
+}
+
+.buttonStyle:active{
+    background-color: #7581731b;
+}
+
+.buttonStyle[caracteresEspeciais0]{
+    color: #FFBF46;
+}
+
+.buttonStyle[caracteresEspeciais1]{
+    color: #758173;
+}
+
